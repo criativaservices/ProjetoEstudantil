@@ -1,0 +1,76 @@
+/* navbar */
+.navbar-default {
+    background-color: #2E8B57;
+    border-color: #E7E7E7;
+}
+/* titulo do site */
+.navbar-default .navbar-brand {
+    color: #F8F8FF;
+    width: 214px; background: url(../img/logounemar.png) center center/214px no-repeat;
+}
+}
+/* Passa o mouse por cima do titulo*/
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #000000
+}
+/* palavras linkadas */
+.navbar-default .navbar-nav > li > a {
+    color:#FFFFF0;
+}
+/* Passa o mouse por cima */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #000000;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version borda do botão pra mobile*/
+.navbar-default .navbar-toggle {
+    border-color: #3CB371;
+}
+/* mobile version cor botão ao clicar */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #3CB371;
+}
+/* icon-bar são os traços no botão para versão mobile */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: #777;
+    }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+          color: #333;
+    }
+}
+

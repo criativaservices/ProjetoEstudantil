@@ -1,0 +1,140 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+
+/*.container_corpo {
+    width: 100%; float: left; padding: 1% 15%; text-align: center;
+   
+}
+*/
+.containercad {
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+}
+/*Controla o corpo para cadastro*/
+body{
+    padding-top: 70px;
+    background-color: white;
+}
+.navbar-brand{
+    font-weight: 700;
+    
+}
+.slider{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:white;
+}
+/*centraliza as imagens*/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 55%;
+      margin: auto;
+  }
+footer{
+    text-align: center;
+}
+
+
+
+.banner{
+    text-align: center;
+}
+
+/*Cor do jumbotron*/
+.jumbotron{
+    color: #FFFFFF;
+    background-color: #2E8B57;
+   
+}
+/*CSS do paragrafo das imagens de ajuda*/
+p{
+   text-align: center; 
+}
+
+/*CSS Botões do Carousel Proximo e Anterior*/
+.carousel-control{
+    background-color: #2E8B57;
+}
+/*//CSS Botões do Carousel Proximo e Anterior*/
+
+/*alinha ao centro as imagens de ajuda*/
+.text-center .img-responsive {
+    margin: 0 auto;
+}
+.textoh4{
+    text-align: center;
+    text-decoration: inherit;
+}
+
+.contato textarea{
+    height: 170px;
+}
+
+/*Perguntas Frequentes - ajuda*/
+h2{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 35px;
+    color: seagreen;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.panel-body{
+    font-size: 15px;
+    color: black;  
+   
+}
+
+
+/*CSS Rodape*/
+.social-icons a {font-size: 1.5em; color: rgba(255,255,255,0.7); margin-right: 3%;}
+.social-icons a:last-child {margin-right: 0;}
+.social-icons a:hover {color: rgb(255,255,255);}
+.copyright {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top:2%;
+}
+.imgapoio {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top:2%;
+}
+.rodape {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    
+    bottom: 0;
+   
+}
+.rodapecad {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    
+	bottom: 0;
+	
+}
+.bg-gradient {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right,#32CD32,#3CB371);
+    
+}
+
+.footer{
+    background-color: aqua;
+}
+/* //CSS Rodape*/
